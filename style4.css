@@ -1,8 +1,9 @@
 body  {
     background-color: black;
-    background: url(million.jpg) no-repeat top center;
+    background: url(million.jpg) repeat-y top center;
     width: 100%;
     margin: 0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif, Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
 }
@@ -69,17 +70,43 @@ nav a:hover::before {
     width: 100%;
 }
 
-img {
-    width: 250px;
-    height: 100%;
+.containerb {
+    width: 1400px;
+    min-height: 600px;
+    background: black;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
-table {
-    background-color: aliceblue;
-    width: 60%;
-    align: center;
+.containerb .box {
+    position: relative;
+    width: 550px;
+    height: 550px;
+    background: rgb(46, 25, 27);
+    margin: 74px;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 80px;
 }
 
-td {
-    padding:
+.containerb .box .picbox
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.containerb .box .picbox img
+{
+    width: 100%;
+    transition: ease-in-out 1s;
+    counter-increment: inherit;
+}
+
+.containerb .box:hover .picbox img
+{
+transform: scale(1.2)
 }
