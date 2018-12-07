@@ -1,12 +1,11 @@
 body  {
     background-color: pink;
-    background: url(million.jpg) no-repeat top center;
+    background: url(stars.jpg) no-repeat top center;
     margin: 0;
-    font-family: 'Montserrat', sans-serif, Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Julius Sans One', sans-serif;
     font-weight: 400;
+    justify-content: center;
 }
-
-
 
 .container {
     width: 100%;
@@ -74,14 +73,13 @@ nav a:hover::before {
 }
 
 .sectioncontainer  {
-    background: white;
+    background: black;
     border: solid lavender;
     position: relative;
     margin-top: 100px;
-    left: 257px;
     float: left;
     height: 350px;
-    width: 500px;
+    width: 100%;
 }
 
 h3  {
@@ -96,7 +94,7 @@ h3  {
     background: navy;
     float: left;
     height: 175px;
-    width: 500px;
+    width: 100%;
     border: darkslategrey;
 }
 
@@ -119,7 +117,7 @@ h3  {
     width: 95%;
     position: relative;
     top: -20px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 h2  {
@@ -137,7 +135,7 @@ h2  {
     margin-top: 150px;
     margin-right: 277px;
     float: right;
-    width: 430px;
+    width: 100%;
     height: 350px;
     font-family: 'Montserrat', sans-serif, Georgia, 'Times New Roman', Times, serif;
 }
@@ -155,11 +153,36 @@ h4  {
     left: -10px;
     background: white;
     bottom: -550px;
-    margin: auto;
+    margin: 0 auto;
     border: solid royalblue;
     height: 100px;
-    width: 960px;
+    width: 100%;
     text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+
+    .sectioncontainer {
+        width: 100%;
+    }
+
+    #pcontainer {
+        width: 100%;
+    }
+
+    #hcontainer {
+        width: 100%;
+    }
+
+    .aside {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+
 }
 
 
