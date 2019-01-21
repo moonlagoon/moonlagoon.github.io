@@ -1,19 +1,19 @@
-* {
-    margin: 0;
-}
-
 body  {
-    background-color: lightgrey;
+    background-color: pink;
     background: url(stars.jpg) no-repeat top center;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
+    margin: 0;
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 400;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
 }
 
 header  {
-    font-family: 'Julius Sans One', sans-serif;
+   color: white;
 }
 
 header::after {
@@ -23,10 +23,8 @@ header::after {
 }
 
 h1 {
-    color: white;
     float: left;
     padding: 10px 0;
-    font-family: 'Julius Sans One', sans-serif;
 }
 
 nav  {
@@ -56,14 +54,14 @@ nav a {
 }
 
 nav a:hover {
-    color: plum;
+    color: rgb(141, 71, 255);
 }
 
 nav a::before {
     content: '';
     display: block;
     height: 5px;
-    background-color: pink;
+    background-color: rgb(233, 217, 255);
     position: absolute;
     top: 0;
     width: 0%;
@@ -77,21 +75,37 @@ nav a:hover::before {
 .container2 {
     font-family: 'Bellefair', serif;
     width: 100%;
-    height: 80%;
-    background-color: pink;
+    height: 500px;
+    background-color: rgb(233, 217, 255);
     float: right;
+    top: 60px;
+    position: relative;
+}
+
+.container2 #photo {
+    position: relative;
+    top: 25px;
+    left: 30px;
 }
 
 #amparagraph {
     font-family: 'Bellefair', serif;
     text-align: center;
-    border: solid plum;
+    border: solid rgb(70, 65, 70);
     background: white;
-    height: 400px;
+    height: 300px;
     width: 50%;
-    position: absolute;
+    position: relative;
+    float: right;
     font-size: 22px;
     right: 20px;
+    bottom: 400px;
+}
+
+#amparagraph p {
+    position: relative;
+    top:30px;
+    line-height: 1.5em;
 }
 
 

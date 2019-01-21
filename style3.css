@@ -1,5 +1,5 @@
 body  {
-    background-color: lightgrey;
+    background-color: rgb(233, 217, 255);
     background: url(stars.jpg) no-repeat top center;
     width: 100%;
     margin: 0 auto;
@@ -52,14 +52,14 @@ nav a {
 }
 
 nav a:hover {
-    color: plum;
+    color: rgb(141, 71, 255);
 }
 
 nav a::before {
     content: '';
     display: block;
     height: 5px;
-    background-color: pink;
+    background-color: rgb(233, 217, 255);
     position: absolute;
     top: 0;
     width: 0%;
@@ -71,20 +71,22 @@ nav a:hover::before {
 }
 
 .sectioncontainer3 {
+    position: relative;
+    top: 30px;
+    left: 30%;
     color: white;
     text-align: center;
-    border: solid pink;
+    border: solid rgb(233, 217, 255);
     background: transparent;
-    height: 400px;
+    height: 550px;
     width: 40%;
-    margin: 0 auto;
-    position: absolute;
     justify-content: center;
     font-size: 22px;
-    left: 30%;
 }
 
 .input-feilds {
+    position: relative;
+    top: 6px;
     padding: 0 30px;
 }
 
@@ -104,7 +106,7 @@ nav a:hover::before {
 .input-feilds .items .input,
 .input-feilds .items .text-area {
     border: 0;
-    border: 1px solid pink;
+    border: 1px solid rgb(233, 217, 255);
     width: 100%;
     font-size: 1em;
     color: white;
@@ -112,8 +114,9 @@ nav a:hover::before {
 }
 
 .btn {
+    position: relative;
     margin: 0 30px;
-    background: pink;
+    background: rgb(233, 217, 255);
     color: white;
     font-size:  1.25em;
     padding: 10px 0;
@@ -123,10 +126,12 @@ nav a:hover::before {
     border-radius: 5px;
     cursor: pointer;
     letter-spacing: 2px;
+    width: 40%;
+    left: 25%;
 }
 
 .items #message {
-    height: 100%;
+    height: 200px;
     width: 100%;
 }
 
