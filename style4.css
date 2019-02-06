@@ -1,18 +1,31 @@
 body  {
-    background-color: black;
-    background: url(stars.jpg) repeat-y top center;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
+    background-color: pink;
+    background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/4hErJtsClimm6r482/slow-motion-serene-deep-space-galaxy-and-stars-background-black-and-white-4k_r77tk52fx_thumbnail-full15.png") no-repeat top center;
+    margin: 0;
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 400;
     justify-content: center;
+}
 
+/*----------------------*/
+
+header h1 {
+    position: relative;
+    font-size: 50px;
+    margin-top:10px;
+    left: -110px;
 }
 
 header  {
-    color: white;
-    font-family: 'Julius Sans One', sans-serif;
+    height: 100px;
+   color: white;
+   background-color: rgba(0,0,0,0.8);
+   font-family: 'Julius Sans One', sans-serif;
+}
+
+header ul {
+    position: relative;
+    left: 406px;
 }
 
 header::after {
@@ -21,10 +34,9 @@ header::after {
     clear: both;
 }
 
-h1 {
+header h1 {
     float: left;
     padding: 10px 0;
-    font-family: 'Julius Sans One', sans-serif;
 }
 
 nav  {
@@ -71,84 +83,9 @@ nav a::before {
 nav a:hover::before {
     width: 100%;
 }
+/*---------cards-----------*/
 
-.containerb {
-    grid-gap: 5px;
-    grid-template-columns: repeat(auto-fit, 100px);
-    grid-template-rows: repeat(2, 100px);
-    width: 60%;
-    min-height: 500px;
-    background: black;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-top: 200px;
-    padding-bottom: 200px;
-}
-
-.containerb .box {
-    grid-gap: 5px;
-    grid-template-columns: repeat(auto-fit, 100px);
-    grid-template-rows: repeat(2, 100px);
-    position: relative;
-    width: 50%;
-    height: 550px;
-    background: rgb(233, 217, 255);
-    margin: 0 auto;
-    box-sizing: border-box;
-    display: inline-block;
-}
-
-.containerb .box .picbox
-{
-    position: relative;
-    overflow: hidden;
-}
-
-.containerb .box .picbox img
-{
-    width: 100%;
-    transition: ease-in-out 1s;
-    counter-increment: inherit;
-}
-
-.containerb .box:hover .picbox img
-{
-transform: scale(1.2)
-}
-
-.positionBox {
-    width: 50%;
-    height: 50%;
-    float: right;
-}
-
-.containerb .box .picbox p {
-
-    color: black;
-}
-
-@media screen and (max-width: 420px) {
-
-    .containerb {
-        width: 100%;
-        height: 100%;
-    }
-
-    .positionBox {
-        width: 100%;
-        height: 100%;
-    }
-
-    .picbox {
-        width: 100%;
-        height: 100%;
-    }
-
-    .box {
-        width: 100%;
-        height: 100%;
-    }
-    
+.containercards {
+    margin-top:30px;
+    margin-bottom: 30px;
 }

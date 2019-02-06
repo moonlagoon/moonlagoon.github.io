@@ -1,6 +1,6 @@
 body  {
     background-color: pink;
-    background: url(stars.jpg) no-repeat top center;
+    background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/4hErJtsClimm6r482/slow-motion-serene-deep-space-galaxy-and-stars-background-black-and-white-4k_r77tk52fx_thumbnail-full15.png") no-repeat top center;
     margin: 0;
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 400;
@@ -12,8 +12,23 @@ body  {
     margin: 0 auto;
 }
 
+header h1 {
+    position: relative;
+    font-size: 50px;
+    margin-top:10px;
+    left: -110px;
+}
+
 header  {
+    height: 100px;
    color: white;
+   background-color: rgba(0,0,0,0.8);
+   font-family: 'Julius Sans One', sans-serif;
+}
+
+header ul {
+    position: relative;
+    left: 419px;
 }
 
 header::after {
@@ -22,7 +37,7 @@ header::after {
     clear: both;
 }
 
-h1 {
+header h1 {
     float: left;
     padding: 10px 0;
 }
@@ -72,11 +87,13 @@ nav a:hover::before {
     width: 100%;
 }
 
+/*----------------------------*/
+
 .container2 {
     font-family: 'Bellefair', serif;
     width: 100%;
     height: 500px;
-    background-color: rgb(233, 217, 255);
+    background-color: rgb(70, 65, 70);
     float: right;
     top: 60px;
     position: relative;
@@ -84,8 +101,10 @@ nav a:hover::before {
 
 .container2 #photo {
     position: relative;
-    top: 25px;
+    margin-top: 50px;
     left: 30px;
+    width: 400px;
+    height: 400px;
 }
 
 #amparagraph {
@@ -106,6 +125,65 @@ nav a:hover::before {
     position: relative;
     top:30px;
     line-height: 1.5em;
+}
+
+/*---------------*/
+
+.sectioncontainer  {
+    background: rgba(0,0,0,0.8);
+    position: relative;
+    margin-top: 100px;
+    float: left;
+    height: 450px;
+    width: 100%;
+}
+
+.sectioncontainer h3 {
+    color: white;
+}
+
+h3  {
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 8px;
+}
+
+#article  {
+    position: relative;
+    top:75px;
+    border-style: groove;
+    background-color: rgb(37, 29, 39);
+    float: left;
+    height: 300px;
+    font-family: 'Bellefair', serif;
+}
+
+#coverlettercontainer  {
+    text-align: center;
+    border: solid rgb(70, 65, 70);
+    background: white;
+    height: 190px;
+    position: relative;
+    margin: auto;
+}
+
+#coverlettercontainer p {
+    font-size: 21px;
+}
+
+h2  {
+    padding: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif, Georgia, 'Times New Roman', Times, serif;
+}
+
+h4  {
+    font-family: auto;
+    font-size: 24px;
+    padding-left: 455px;
+    color: black;
 }
 
 
