@@ -89,3 +89,11 @@ nav a:hover::before {
     margin-top:30px;
     margin-bottom: 30px;
 }
+
+.containercards a {
+    color: rgb(141, 71, 255);
+}
+
+.containercards a .btn-btn-secondary {
+    color: white;
+}
