@@ -106,7 +106,7 @@ nav a:hover::before {
     left: 10%;
 }
 
-.container2 #photo {
+.container2 img {
     position: relative;
     margin-top: 50px;
     left: 30px;
@@ -114,23 +114,9 @@ nav a:hover::before {
     height: 400px;
 }
 
-#amparagraph {
-    font-family: 'Bellefair', serif;
-    text-align: center;
-    border: solid rgb(70, 65, 70);
-    background: white;
-    height: 300px;
-    width: 60%;
-    position: relative;
-    float: right;
-    font-size: 22px;
-    bottom: 360px;
-}
-
-#amparagraph p {
-    position: relative;
-    top:30px;
-    line-height: 1.5em;
+p {
+    background-color: white;
+    border-radius: 30px;
 }
 
 /*---------------*/
