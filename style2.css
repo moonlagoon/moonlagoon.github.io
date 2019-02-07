@@ -142,6 +142,14 @@ nav a:hover::before {
      margin-left: 20px;
  }
 
+ .linkscontainer .btn {
+     color: white;
+ }
+
+ .linkscontainer a {
+     color: rgb(141, 71, 255);
+ }
+
 
 
 
