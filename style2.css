@@ -34,7 +34,7 @@ header  {
 
 header ul {
     position: relative;
-    left: 419px;
+    left:419px;
 }
 
 header::after {
@@ -94,30 +94,26 @@ nav a:hover::before {
 }
 
 /*----------------------------*/
+ .container2 {
+     position: relative;
+     top:30px;
+ }
 
-.container2 {
-    font-family: 'Bellefair', serif;
-    width: 90%;
-    height: 500px;
-    background-color: rgb(70, 65, 70);
-    top: 10px;
-    position: relative;
-    align-content: center;
-    left: 10%;
-}
+ .container2 ul img {
+     width: 100px;
+     height: 100px;
+ }
 
-.container2 img {
-    position: relative;
-    margin-top: 50px;
-    left: 30px;
-    width: 400px;
-    height: 400px;
-}
+ .container2 ul {
+     background-color: white;
+     border-spacing: 5px;
+ }
 
-p {
-    background-color: white;
-    border-radius: 30px;
-}
+ .container2 p {
+     background-color: white;
+     border-spacing: 5px;
+     border-width: 5px;
+ }
 
 /*---------------*/
 
