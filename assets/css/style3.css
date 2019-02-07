@@ -7,19 +7,6 @@ body  {
     justify-content: center;
 }
 
-.container {
-    font-family: 'Julius Sans One', sans-serif;
-}
-
-.container img {
-    position: absolute;
-    margin: 0;
-    top: 0;
-    left: 0;
-    width: 150px;
-    height: 150px;
-}
-
 /*----------------------*/
 
 header h1 {
@@ -38,7 +25,7 @@ header  {
 
 header ul {
     position: relative;
-    left: 300px;
+    left: 356px;
 }
 
 header::after {
@@ -96,52 +83,79 @@ nav a::before {
 nav a:hover::before {
     width: 100%;
 }
-/*--------------------*/
+/*-------------*/
 
-.mooncontainer img {
+.sectioncontainer3 {
     position: relative;
-    justify-content: center;
-    z-index: auto;
-    height:650px;
-    width:650px;
-    left: 40px;
-    top:10px;
-}
-
-.linkscontainer {
-    background-color: rgb(37, 29, 39);
+    top: 30px;
+    left: 30%;
     color: white;
-    width: 60%;
+    text-align: center;
+    border: solid rgb(233, 217, 255);
+    background: transparent;
+    height: 550px;
+    width: 40%;
+    justify-content: center;
+    font-size: 22px;
 }
 
-.linkscontainer img {
-    width: 100px;
-    height:100px;
+.input-feilds {
+    position: relative;
+    top: 6px;
+    padding: 0 30px;
 }
 
-@media screen and (max-width: 400px) {
-
-    .sectioncontainer {
-        width: 100%;
-    }
-
-    #pcontainer {
-        width: 100%;
-    }
-
-    #hcontainer {
-        width: 100%;
-    }
-
-    .aside {
-        width: 100%;
-    }
-
-    .footer {
-        width: 100%;
-    }
-
-
+.input-feilds .items {
+    width: 100%;
+    padding-bottom: 15px;
 }
 
+.input-feilds .items .label {
+    display: block;
+    font-size: 1em;
+    color: white;
+    text-orientation: capitalize;
+    padding-bottom: 5px;
+}
 
+.input-feilds .items .input,
+.input-feilds .items .text-area {
+    border: 0;
+    border: 1px solid rgb(233, 217, 255);
+    width: 100%;
+    font-size: 1em;
+    color: white;
+    border-radius: 3px;
+}
+
+.btn {
+    position: relative;
+    margin: 0 30px;
+    background-color: rgb(233, 217, 255);
+    color: white;
+    font-size:  1.25em;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    width: 40%;
+    left: 25%;
+}
+
+.items #message {
+    height: 130px;
+    width: 100%;
+}
+
+@media screen and (max-width: 320px) { 
+
+    .sectioncontainer3 {
+        width: 100px;
+
+    }
+    
+
+}

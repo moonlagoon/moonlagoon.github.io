@@ -111,7 +111,7 @@ nav a:hover::before {
 .linkscontainer {
     background-color: rgb(37, 29, 39);
     color: white;
-    width: 60%;
+    width: 50%;
 }
 
 .linkscontainer img {
