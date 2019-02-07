@@ -108,6 +108,17 @@ nav a:hover::before {
     top:10px;
 }
 
+.linkscontainer {
+    background-color: rgb(37, 29, 39);
+    color: white;
+    width: 50%;
+}
+
+.linkscontainer img {
+    width: 100px;
+    height:100px;
+}
+
 @media screen and (max-width: 400px) {
 
     .sectioncontainer {
