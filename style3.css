@@ -131,7 +131,7 @@ nav a:hover::before {
 .btn {
     position: relative;
     margin: 0 30px;
-    background: rgb(233, 217, 255);
+    background-color: rgb(233, 217, 255);
     color: white;
     font-size:  1.25em;
     padding: 10px 0;
@@ -146,7 +146,7 @@ nav a:hover::before {
 }
 
 .items #message {
-    height: 200px;
+    height: 130px;
     width: 100%;
 }
 

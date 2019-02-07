@@ -1,6 +1,6 @@
 body  {
-    background-color: pink;
-    background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/4hErJtsClimm6r482/slow-motion-serene-deep-space-galaxy-and-stars-background-black-and-white-4k_r77tk52fx_thumbnail-full15.png") no-repeat top center;
+    background-color: rgb(0, 0, 0);
+    background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/4hErJtsClimm6r482/slow-motion-serene-deep-space-galaxy-and-stars-background-black-and-white-4k_r77tk52fx_thumbnail-full15.png") repeat-y;
     margin: 0;
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 400;
