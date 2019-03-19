@@ -7,8 +7,7 @@ This site is all about myself and what I am capable of doing. Showing hard dedic
 Throughout the site will give you information about me and different links you can check out to see proof of my work.
 
 #Contact
-If you would like to reach out to me, feel free to email "moonlagoon.r@gmail.com" or contact my phone at "614-596-1936."
-Also feel free to contact me through the portfolio on the "Contact Me" page or check out the links.
+If you would like to reach out to me, feel free to email "moonlagoon.r@gmail.com"
 
 #Built With
 This site was built using
@@ -18,10 +17,7 @@ This site was built using
 - Google Fonts
 - JQuery
 
-#Features
-This site will also include some of my personal work which will include "Fine Arts, Paintings, Music."
-
 #Contribute
-If you would like to collaborate on a project, contact me to discuss work.
+If you would like to collaborate on a project, contact me to discuss.
 
 MIT © Luna Routsong
