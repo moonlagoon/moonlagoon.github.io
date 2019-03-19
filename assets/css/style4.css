@@ -1,0 +1,99 @@
+body  {
+    background-color: rgb(0, 0, 0);
+    background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/IjFi-wx/moving-stars-in-night-sky_v1wppg27__F0000.png") repeat-y;
+    margin: 0;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 400;
+    justify-content: center;
+}
+
+/*----------------------*/
+
+header h1 {
+    position: relative;
+    font-size: 50px;
+    margin-top:10px;
+    left: -110px;
+}
+
+header  {
+    height: 100px;
+   color: white;
+   background-color: rgba(0,0,0,0.8);
+   font-family: 'Julius Sans One', sans-serif;
+}
+
+header ul {
+    position: relative;
+    left: 406px;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+header h1 {
+    float: left;
+    padding: 10px 0;
+}
+
+nav  {
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    position: relative;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: rgb(141, 71, 255);
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: rgb(233, 217, 255);
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+/*---------cards-----------*/
+
+.containercards {
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+.containercards a {
+    color: rgb(141, 71, 255);
+}
+
+.containercards .btn {
+    color: white;
+}
