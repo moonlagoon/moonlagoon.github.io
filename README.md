@@ -1,23 +1,16 @@
-moonlagoon.github.io
+#Moonlagoon
 
-Welcome to my portfolio!
+Hello welcome to my portfolio!
 
-#About 
-This site is all about myself and what I am capable of doing. Showing hard dedication to get to where I need to be in life.
-Throughout the site will give you information about me and different links you can check out to see proof of my work.
+![Image description](http://tinypic.com?ref=988xw1)
 
-#Contact
-If you would like to reach out to me, feel free to email "moonlagoon.r@gmail.com"
+You can check out my pages to see my work or to visit links to my social pages like Github, LinkedIn, and my resume.
 
-#Built With
-This site was built using
-- HTML
-- CSS
-- Bootstrap
-- Google Fonts
-- JQuery
+A future addition to my page will be to get my contact page responsive.
 
-#Contribute
-If you would like to collaborate on a project, contact me to discuss.
+#Built with
 
-MIT © Luna Routsong
+HTML
+CSS
+Bootstrap
+
