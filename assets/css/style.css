@@ -1,112 +1,119 @@
+html {
+    background-color: rgb(6, 6, 6);
+}
+
 body  {
-    background-color: pink;
-    background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/IjFi-wx/moving-stars-in-night-sky_v1wppg27__F0000.png") no-repeat top center;
-    margin: 0;
-    font-family: 'Julius Sans One', sans-serif;
-    font-weight: 400;
-    justify-content: center;
-}
-
-.container {
-    font-family: 'Julius Sans One', sans-serif;
-}
-
-.container img {
-    position: absolute;
-    margin: 0;
-    top: 0;
-    left: 0;
-    width: 150px;
-    height: 150px;
+    background-color: rgb(6, 6, 6) !important;
+    background-image: url("night.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
 }
 
 /*----------------------*/
 
-header h1 {
-    position: relative;
-    font-size: 50px;
-    margin-top:10px;
-    left: -110px;
-}
-
-header  {
-    height: 100px;
-   color: white;
-   background-color: rgba(0,0,0,0.8);
-   font-family: 'Julius Sans One', sans-serif;
-}
-
-header ul {
-    position: relative;
-    left: 300px;
-}
-
-header::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
-header h1 {
-    float: left;
-    padding: 10px 0;
-}
-
-nav  {
-    text-align: right;
-    padding-right: 15px;
-    padding-top: 20px;
-}
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-nav li {
-    display: inline-block;
-    margin-left: 70px;
-    padding-top: 23px;
-    position: relative;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
-}
-
-nav a:hover {
-    color: rgb(255, 238, 83);
-}
-
-nav a::before {
-    content: '';
-    display: block;
-    height: 5px;
-    background-color: rgb(233, 217, 255);
-    position: absolute;
-    top: 0;
-    width: 0%;
-    transition: all ease-in-out 250ms;
-}
-
-nav a:hover::before {
+.headercontainer {
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+    top: 30px;
+    height: 70px;
     width: 100%;
 }
-/*--------------------*/
 
-.mooncontainer img {
-    position: relative;
-    justify-content: center;
-    z-index: auto;
-    height:650px;
-    width:650px;
-    left: 40px;
-    top:10px;
+.headercontainer i {
+    border-collapse: collapse;
+    position:relative;
+    padding-top: 20px;
+    left: 80%;
+    height: 60px;
+    width: 60px;
+    background-color: rgba(0,0,0,0);
+    color: rgb(223, 223, 223);
 }
+
+/*----------------------*/
+
+.intro-container {
+    position: absolute;
+    top: 270px;
+    width: 100%;
+    height: 420px;
+    padding: 40px;
+    background-color: rgba(0,0,0,0);
+    text-align: center;
+    line-height: 2em;
+}
+
+.intro-container p {
+    position: relative;
+    top: 320px;
+    color: white;
+    font-size: 20px;
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-container .me {
+    position: relative;
+    top: 40px;
+    width: 160px;
+    height: 160px;
+    padding: 20px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+/*----------------------*/
+
+.contentcontainer {
+    background-color: white;
+    padding: 20px;
+    -webkit-box-shadow: 3px 3px 5px 6px rgb(0, 0, 0, 0.5);
+    -moz-box-shadow:    3px 3px 5px 6px rgb(0, 0, 0, 0.5); 
+    box-shadow:         3px 3px 5px 6px rgb(0, 0, 0, 0.5);
+    height: 3500px;
+    width: 95%;
+    position: absolute;
+    left: 2.5%;
+    top: 1050px;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+/*----------------------*/
+
+.logocontainer {
+    position: relative;
+    top: 80px;
+}
+
+.logocontainer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    opacity: 0.3;
+    overflow: auto;
+}
+
+.logocontainer h2 {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+/*----------------------*/
+
 
 .linkscontainer {
     background-color: rgb(37, 29, 39);
@@ -116,32 +123,294 @@ nav a:hover::before {
 
 .linkscontainer img {
     width: 100px;
-    height:100px;
+    height: 100px;
 }
 
-@media screen and (max-width: 400px) {
+/*------------*/
 
-    .sectioncontainer {
-        width: 100%;
-    }
+#skills {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
-    #pcontainer {
-        width: 100%;
-    }
+#skills img {
+    position: relative;
+    top: 30px;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+}
 
-    #hcontainer {
-        width: 100%;
-    }
+#skills h1 {
+    margin-bottom: 20px;
+}
 
-    .aside {
-        width: 100%;
-    }
+/*---------*/
 
-    .footer {
-        width: 100%;
-    }
+#work {
+    position: relative;
+    top: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: inline;
+}
 
+#work h1 {
+    margin-bottom: 50px;
+}
 
+#work p {
+    color: grey;
 }
 
 
+
+
+
+/*-------------*/
+
+#postmates {
+    width: 20%;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#postmates img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 25px;
+}
+
+#postmates h4 {
+    font-size: 15px;
+}
+
+/*----------*/
+
+#captel {
+    width: 20%;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#captel img {
+    width: 60px;
+    height: 30px;
+    margin: 20px;
+}
+
+#captel h4 {
+    font-size: 15px;
+}
+
+/*----------*/
+
+#papaj {
+    width: 20%;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#papaj img {
+    width: 80px;
+    height: 80px;
+}
+
+#papaj h4 {
+    font-size: 15px;
+}
+
+/*------------------*/
+
+#education {
+    position: relative;
+    top: 580px;
+    width: 100%;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    display: inline;
+}
+
+#education h1 {
+    margin-bottom: 50px;
+}
+
+#education p {
+    color: grey;
+}
+
+
+
+
+#ucf {
+    width: 30%;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#ucf img {
+    width: 80px;
+    height: 80px;
+}
+
+#ucf h4 {
+    font-size: 15px;
+}
+
+/*------------------------------------*/
+
+#projects {
+    position: relative;
+    top: 800px;
+    width: 100%;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    display: inline;
+}
+
+#projects h1 {
+    margin-bottom: 100px;
+}
+
+#projects p {
+    color: grey;
+}
+
+#projects img {
+    position: relative;
+    border-radius: 20px;
+    width: 140px;
+    height: 70px;
+    background: white;
+    margin-bottom: 20px;
+}
+
+#projects h4 {
+    font-size: 15px;
+}
+
+#projects a {
+    color: rgb(165, 165, 165);
+}
+
+/*----------------*/
+
+#drinkdine {
+    width: 30%;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+/*--------------------------*/
+
+#trivia {
+    width: 30%;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+/*---------------------------*/
+
+#kitty {
+    width: 30%;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+/*------------------------------*/
+
+#psychic {
+    width: 30%;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+/*-----------------------------*/
+
+#train {
+    width: 30%;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+/*-----------------------*/
+
+#giphy {
+    width: 30%;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+/*-------------------*/
+
+#friendfinder {
+    width: 30%;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}  
+
+/*--------------------------*/
+
+#burger {
+    width: 30%;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+/*--------------------------*/
+
+#clicky {
+    width: 30%;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+/*--------------------*/
+
+
+
+#contact {
+    position: relative;
+    top: 1000px;
+    width: 100%;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center; 
+}
+
+#contact h1 {
+    margin-bottom: 20px;
+}
+
+#contact p {
+    color: rgb(56, 56, 56);
+}
