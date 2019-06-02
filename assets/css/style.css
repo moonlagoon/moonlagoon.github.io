@@ -1,20 +1,20 @@
 html {
-    background-color: rgb(6, 6, 6);
+    background-color: rgb(5, 5, 5);
 }
 
 body  {
     background-color: rgb(6, 6, 6) !important;
-    background-image: url("night.jpg");
+    background-image: url("https://images.unsplash.com/photo-1462292781246-9f2200b0a556?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1250&q=80");
     background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
 }
 
 /*----------------------*/
 
 .headercontainer {
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(138, 135, 135, 0);
     position: fixed;
     top: 30px;
     height: 70px;
@@ -29,7 +29,7 @@ body  {
     height: 60px;
     width: 60px;
     background-color: rgba(0,0,0,0);
-    color: rgb(223, 223, 223);
+    color: rgb(129, 129, 129);
 }
 
 /*----------------------*/
@@ -44,6 +44,7 @@ body  {
     text-align: center;
     line-height: 2em;
 }
+
 
 .intro-container p {
     position: relative;
@@ -112,6 +113,7 @@ body  {
     width: 100%;
     text-align: center;
     padding: 20px;
+    color: rgb(129, 129, 129);
 }
 
 /*----------------------*/
@@ -119,7 +121,7 @@ body  {
 
 .linkscontainer {
     background-color: rgb(37, 29, 39);
-    color: white;
+    color: rgb(143, 143, 143);
     width: 50%;
 }
 
@@ -247,6 +249,10 @@ body  {
 }
 
 #education p {
+    color: grey;
+}
+
+#education a {
     color: grey;
 }
 
@@ -402,7 +408,7 @@ body  {
 
 #contact {
     position: relative;
-    top: 1000px;
+    top: 980px;
     width: 100%;
     margin-left: 400px;
     margin-right: 400px;
