@@ -1,14 +1,15 @@
 html {
-    background-color: rgb(5, 5, 5);
+    height: 4800px;
+    background: linear-gradient(55deg, #050505 0%, #000000 51%, #a13408 85%);
 }
 
 body  {
-    background-color: rgb(6, 6, 6) !important;
-    background-image: url("https://images.unsplash.com/photo-1508186232247-3a19949b83ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-color: rgb(0, 0, 0) !important;
     background-position: center;
     background-repeat: no-repeat;
-    height: 800px;
+    height: 1050px;
 }
+
 
 /*----------------------*/
 
@@ -47,7 +48,7 @@ body  {
 
 .intro-container p {
     position: relative;
-    top: 380px;
+    top: 780px;
     color: white;
     font-size: 20px;
     width: 45%;
@@ -57,23 +58,11 @@ body  {
     font-family: 'Cantarell', sans-serif;
 }
 
-.intro-container .me {
-    position: relative;
-    top: 40px;
-    width: 160px;
-    height: 160px;
-    padding: 20px;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: auto;
-}
 
 /*----------------------*/
 
 .contentcontainer {
-    background-color: white;
+    background-image: linear-gradient(to right, rgba(255, 255, 255) , rgb(218, 214, 214));
     padding: 20px;
     -webkit-box-shadow: 3px 3px 5px 6px rgb(0, 0, 0, 0.5);
     -moz-box-shadow:    3px 3px 5px 6px rgb(0, 0, 0, 0.5); 
@@ -82,7 +71,7 @@ body  {
     width: 95%;
     position: absolute;
     left: 2.5%;
-    top: 1100px;
+    top: 1300px;
     vertical-align: middle;
     border-radius: 10px;
     font-family: 'Cantarell', sans-serif;
@@ -92,15 +81,17 @@ body  {
 
 .logocontainer {
     position: relative;
-    top: 80px;
+    top: 160px;
 }
 
 .logocontainer img {
+    position: relative;
+    top: -140px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
-    opacity: 0.3;
+    max-width: 100%;
+    height: auto;
     overflow: auto;
 }
 
@@ -420,4 +411,47 @@ body  {
 
 #contact p {
     color: rgb(56, 56, 56);
+}
+
+/*--------------------------------*/
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        width: 100%;
+    }
+
+    html {
+        width: 100%;
+    }
+
+    #contentcontainer {
+        margin: 0;
+        height: 6000px;
+    }
+
+    .intro-container p {
+        position: relative;
+        top: 300px;
+        height: 200px;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #skills img {
+        height: 60px;
+        width: 60px;
+    }
+
+    #work {
+        margin: 0;  
+    }
+
+    #education {
+        margin: 0; 
+    }
+
+    #projects {
+        margin: 0;
+    }
 }
